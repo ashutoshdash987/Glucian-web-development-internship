@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>|| Project ||</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Container
+        clock
+        alarm
+        add  button
+        model
+        alert -->
+    <div class="container">
+        <div class="clock">
+            <div class="time" id="hour">12</div>
+            <div class="time" id="min">20</div>
+            <div class="time" id="sec">20</div>
+            <div class="time" id="am-pm">AM</div>
+        </div>
+        <div class="alarms">
+            <div class="alarm">
+                <div class="head">
+                    <div class="name">05:25 AM</div>
+                </div>
+            </div>
+            <div class="alarm">
+                <div class="head">
+                    <div class="name">08:30 AM</div>
+                </div>
+            </div>
+            <div class="alarm">
+                <div class="head">
+                    <div class="name">09:15 AM</div>
+                </div>
+            </div>
+            <div class="alarm">
+                <div class="head">
+                    <div class="name">06:20 PM</div>
+                </div>
+            </div>
+            <div class="alarm">
+                <div class="head">
+                    <div class="name">12:29 PM</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- <script>
+        setInterval(showime, 1000);
+        function showime() {
+            let time = new Date();
+            let hour = time.getHours();
+            let min = time.getMinutes();
+            let sec = time.getSeconds();
+            let am_pm = "AM";
+
+            if (hour > 12) {
+                hour -= 12;
+                am_pm = "PM";
+            }
+            if (hour == 0) {
+                hour = 12;
+                am_pm = "AM";
+            }
+            hour = hour < 10 ? "0" + hour : hour;
+            min = min < 10 ? "0" + min : min;
+            sec = sec < 10 ? "0" + sec : sec;
+
+            document.getElementById("hour").innerHTML = hour;
+            document.getElementById("min").innerHTML = min;
+            document.getElementById("sec").innerHTML = sec;
+
+        }
+
+    </script> -->
+</body> 
+
+</html>
